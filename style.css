@@ -131,3 +131,54 @@ body {
 .box .list:hover .content p {
   color: #fff;
 }
+
+@media screen and (max-width: 465px) {
+  .box h3 {
+    margin-bottom: 20px;
+    padding-left: 20px;
+  }
+
+  .box .list .content h4 {
+    font-size: 1rem;
+  }
+
+  .box .list .content p {
+    font-size: 0.75rem;
+  }
+
+  .box .list {
+    padding: 5px 0;
+  }
+
+  .box {
+    min-width: 350px;
+    padding: 10px;
+  }
+
+  .box .list .content .rank {
+    font-size: 2rem;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .box {
+    min-width: 270px;
+    padding: 10px;
+  }
+
+  .box h3 {
+    font-size: 1.25rem;
+    padding-left: 10px;
+  }
+
+  .box .list .content .rank {
+    font-size: 1.25rem;
+    padding-right: 10px;
+  }
+
+  .box .list .imgBx {
+    min-width: 45px;
+    height: 45px;
+  }
+}
